@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "knockback_displacement",
+  "version": "${version}",
+  "name": "Knockback Displacement",
+  "description": "Configurable horizontal and vertical knockback displacement.",
+  "authors": ["Kazael"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.kazael.kbdisplacement.KnockbackDisplacement"],
+    "client": ["dev.kazael.kbdisplacement.client.KnockbackDisplacementClient"]
+  },
+  "mixins": ["knockback_displacement.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

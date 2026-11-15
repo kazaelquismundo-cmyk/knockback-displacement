@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.kazael.kbdisplacement.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["LivingEntityKnockbackMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
