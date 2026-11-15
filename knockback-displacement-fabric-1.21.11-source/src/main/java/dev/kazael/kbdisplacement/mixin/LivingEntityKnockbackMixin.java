@@ -34,6 +34,6 @@ public abstract class LivingEntityKnockbackMixin {
             pushed = pushed.add(0.0, vertical, 0.0);
         }
         self.setDeltaMovement(pushed);
-        self.hasImpulse = true;
+        self.needsSync = true;
     }
 }
